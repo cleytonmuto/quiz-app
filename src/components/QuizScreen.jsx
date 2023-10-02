@@ -34,7 +34,7 @@ const QuizScreen = ({retry}) => {
           <Question
             question={QuestionList[currentQuestionIndex]}
             totalQuestions={QuestionList.length}
-            currentQuestion={currentQuestionIndex + 1}
+            currentQuestion={currentQuestionIndex}
             setAnswer={(index) => {
               setMarkedAnswers((arr) => {
                 let newArr = [...arr];
